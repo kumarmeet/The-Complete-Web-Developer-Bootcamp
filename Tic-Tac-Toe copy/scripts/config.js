@@ -11,7 +11,7 @@ const closePlayerConfig = () => {
   backdropElement.style.display = "none";
   formElement.firstElementChild.classList.remove("error");
   inputError.textContent = "";
-  formElement[0].value = "";
+  formElement[0].value = ""; //reset the input value
 };
 
 const savePlayerConfig = (event) => {
